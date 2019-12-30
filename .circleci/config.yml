@@ -15,7 +15,7 @@ jobs:
       # Install dependencies
       - run:
           name: Install Dependencies
-          command: NODE_ENV=dev yarn
+          command: npm install
 
       # Keep cache
       - save_cache:
