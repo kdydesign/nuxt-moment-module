@@ -1,6 +1,6 @@
 # Nuxt-Moment-Module
-<!-- [![npm version][npm-version-src]][npm-version-href] -->
-<!-- [![npm downloads][npm-downloads-src]][npm-downloads-href] -->
+[![npm version][npm-version-src]][npm-version-href]
+[![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![Circle CI][circle-ci-src]][circle-ci-href]
 [![Codecov][codecov-src]][codecov-href]
 [![Dependencies][david-dm-src]][david-dm-href]
@@ -84,10 +84,10 @@ export const actions = {
 Copyright (c) Dev.DY(https://kdydesign.github.io/)
 
 <!-- Badges -->
-<!-- [npm-version-src]: https://img.shields.io/npm/dt/@nuxtjs/axios.svg?style=flat-square -->
-<!-- [npm-version-href]: https://npmjs.com/package/@nuxtjs/axios -->
-<!-- [npm-downloads-src]: https://img.shields.io/npm/v/@nuxtjs/axios/latest.svg?style=flat-square -->
-<!-- [npm-downloads-href]: https://npmjs.com/package/@nuxtjs/axios -->
+[npm-version-src]: https://img.shields.io/npm/v/nuxt-moment?style=flat-square
+[npm-version-href]: https://npmjs.com/package/nuxt-moment
+[npm-downloads-src]: https://img.shields.io/npm/dt/nuxt-moment?style=flat-square
+[npm-downloads-href]: https://npmjs.com/package/nuxt-moment
 [circle-ci-src]: https://img.shields.io/circleci/project/github/kdydesign/nuxt-moment-module/master.svg?style=flat-square
 [circle-ci-href]: https://circleci.com/gh/kdydesign/nuxt-moment-module/tree/master
 [codecov-src]: https://img.shields.io/codecov/c/github/kdydesign/nuxt-moment-module.svg?style=flat-square
