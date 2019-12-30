@@ -26,14 +26,4 @@ jobs:
       # Lint
       - run:
           name: Lint
-          command: npm lint
-
-      # Tests
-      - run:
-          name: Tests
-          command: npm jest
-
-      # Coverage
-      - run:
-          name: Coverage
-          command: npm codecov
+          command: npm run lint
