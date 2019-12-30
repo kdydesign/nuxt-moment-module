@@ -21,7 +21,7 @@ Copyright (c) Nuxt Community
 [circle-ci-href]: https://circleci.com/gh/kdydesign/nuxt-moment-module/tree/master
 [codecov-src]: https://img.shields.io/codecov/c/github/kdydesign/nuxt-moment-module.svg?style=flat-square
 [codecov-href]: https://codecov.io/gh/kdydesign/nuxt-moment-module
-[david-dm-src]: https://david-dm.org/nuxt-community/axios-module/status.svg?style=flat-square
-[david-dm-href]: https://david-dm.org/nuxt-community/axios-module
+[david-dm-src]: https://david-dm.org/kdydesign/nuxt-moment-module/status.svg?style=flat-square
+[david-dm-href]: https://david-dm.org/kdydesign/nuxt-moment-module
 [standard-js-src]: https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square
 [standard-js-href]: https://standardjs.com
