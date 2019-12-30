@@ -1,5 +1,5 @@
 {
-  "name": "@nuxtjs/moment",
+  "name": "nuxt-moment",
   "version": "1.0.0",
   "description": "Easy integration between nuxt.js and moment",
   "main": "lib/module.js",
@@ -10,8 +10,16 @@
     "test": "yarn lint && jest",
     "release": "yarn test && standard-version && git push --follow-tags && npm publish"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "nuxt",
+    "moment",
+    "nuxt-module"
+  ],
+  "contributors": [
+    {
+      "name": "Dev.DY <kdydesign@gmail.com>"
+    }
+  ],
   "license": "MIT",
   "publishConfig": {
     "access": "public"
