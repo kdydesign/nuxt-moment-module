@@ -1,3 +1,4 @@
+[![Circle CI][circle-ci-src]][circle-ci-href]
 [![CircleCI](https://circleci.com/gh/kdydesign/nuxt-moment-module.svg?style=svg)](https://circleci.com/gh/kdydesign/nuxt-moment-module)
 
 
