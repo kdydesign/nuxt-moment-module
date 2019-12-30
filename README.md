@@ -1,3 +1,11 @@
+# @nuxtjs/moment
+
+[![npm version][npm-version-src]][npm-version-href]
+[![npm downloads][npm-downloads-src]][npm-downloads-href]
+[![Circle CI][circle-ci-src]][circle-ci-href]
+[![Codecov][codecov-src]][codecov-href]
+[![License][license-src]][license-href]
+
 [![Circle CI][circle-ci-src]][circle-ci-href]
 [![CircleCI](https://circleci.com/gh/kdydesign/nuxt-moment-module.svg?style=svg)](https://circleci.com/gh/kdydesign/nuxt-moment-module)
 
