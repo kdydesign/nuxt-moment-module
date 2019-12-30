@@ -7,6 +7,9 @@
 [![Standard JS][standard-js-src]][standard-js-href]
 > Easy integration between nuxt.js and moment
 
+## Infos
+- [📖 **Release Notes**](./CHANGELOG.md)
+
 ## Install
 Install with npm:
 
