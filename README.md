@@ -21,10 +21,10 @@ nuxt.config.js:
 
 ```js
 module.exports = {
-	modules: [
-    	// Simple usage
-    	'nuxt-moment'
-	 ]
+  modules: [
+    // Simple usage
+    'nuxt-moment'
+  ]
 }
 ```
 
@@ -33,28 +33,28 @@ module.exports = {
 ### Component
 ```js
 export default {
-	data () {
-		return {
-			date: this.$moment().format('LTS')
-		}
-	},
-	computed: {
-		computedDate () {
-			return this.$moment(new Date).format('LL')
-		}
-	},
-	methods: {
-		getDate () {
-			return this.$moment()
-		}
-	}
+  data () {
+    return {
+      date: this.$moment().format('LTS')
+    }
+  },
+  computed: {
+    computedDate () {
+      return this.$moment(new Date).format('LL')
+    }
+  },
+  methods: {
+    getDate () {
+      return this.$moment()
+    }
+  }
 }
 ```
 
 ### Plugin
 ```js
 export default function({ $moment }) {
-	console.log($moment().format('LTS'))
+  console.log($moment().format('LTS'))
 }
 ```
 
