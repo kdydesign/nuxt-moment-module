@@ -1,3 +1,6 @@
+[![CircleCI](https://circleci.com/gh/kdydesign/nuxt-moment-module.svg?style=svg)](https://circleci.com/gh/kdydesign/nuxt-moment-module)
+
+
 ![License: MIT](https://img.shields.io/npm/l/nuxt-compress.svg?style=for-the-badge)
 ![npm download count](https://img.shields.io/npm/dt/nuxt-compress.svg?style=for-the-badge)
 ![Dependency status for latest release](https://img.shields.io/librariesio/release/npm/nuxt-compress.svg?style=for-the-badge)
