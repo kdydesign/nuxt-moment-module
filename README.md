@@ -1,3 +1,6 @@
+# Nuxt-Moment-Module
+> Easy integration between nuxt.js and moment
+
 <!-- [![npm version][npm-version-src]][npm-version-href] -->
 <!-- [![npm downloads][npm-downloads-src]][npm-downloads-href] -->
 [![Circle CI][circle-ci-src]][circle-ci-href]
@@ -5,12 +8,78 @@
 [![Dependencies][david-dm-src]][david-dm-href]
 [![Standard JS][standard-js-src]][standard-js-href]
 
+## Install
+Install with npm:
 
-## 📑 License
+```bash
+npm i nuxt-moment
+```
+
+nuxt.config.js:
+
+```js
+module.exports = {
+	modules: [
+    	// Simple usage
+    	'nuxt-moment'
+	 ]
+}
+```
+
+## Usage
+
+### Component
+```js
+export default {
+	data () {
+		return {
+			date: this.$moment().format('LTS')
+		}
+	},
+	computed: {
+		computedDate () {
+			return this.$moment(new Date).format('LL')
+		}
+	},
+	methods: {
+		getDate () {
+			return this.$moment()
+		}
+	}
+}
+```
+
+### Plugin
+```js
+export default function({ $moment }) {
+	console.log($moment().format('LTS'))
+}
+```
+
+### Store
+```js
+export const state = () => ({
+  date: new Date()
+})
+
+export const mutations = {
+  MUTATION (state) {
+    state.date = this.$moment().day(10)
+  }
+}
+
+export const actions = {
+  action ({state, commit}) {
+    commit('SAMPLE_MUTATIONS', this.$moment().day(5))
+  }
+}
+```
+
+## License
 
 [MIT License](./LICENSE)
 
-Copyright (c) Nuxt Community
+Copyright (c) Dev.DY(https://kdydesign.github.io/)
 
 <!-- Badges -->
 <!-- [npm-version-src]: https://img.shields.io/npm/dt/@nuxtjs/axios.svg?style=flat-square -->
