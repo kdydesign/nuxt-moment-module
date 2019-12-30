@@ -8,6 +8,7 @@
     "dev": "nuxt test/fixture",
     "lint": "eslint lib test",
     "test": "yarn lint && jest",
+    "codecov": "./node_modules/.bin/codecov."
     "release": "yarn test && standard-version && git push --follow-tags && npm publish"
   },
   "keywords": [
