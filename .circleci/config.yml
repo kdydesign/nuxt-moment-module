@@ -26,4 +26,4 @@ jobs:
       # Coverage
       - run:
           name: Coverage
-          command: npm codecov
+          command: npm run codecov
