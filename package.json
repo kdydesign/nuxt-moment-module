@@ -1,6 +1,6 @@
 {
   "name": "nuxt-moment",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easy integration between nuxt.js and moment",
   "main": "lib/module.js",
   "homepage": "https://github.com/kdydesign/nuxt-moment-module",
@@ -8,7 +8,7 @@
   "bugs": {
     "url": "https://github.com/kdydesign/nuxt-moment-module/issues",
     "email": "kdydesign@gmail.com"
-  },  
+  },
   "scripts": {
     "dev": "nuxt test/fixture",
     "lint": "eslint lib test",
