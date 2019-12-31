@@ -1,7 +1,7 @@
 {
   "name": "nuxt-moment",
   "version": "1.0.1",
-  "description": "Easy integration between nuxt.js and moment",
+  "description": "Easy integration between Nuxt.js and Moment.js",
   "main": "lib/module.js",
   "homepage": "https://github.com/kdydesign/nuxt-moment-module",
   "repository": "https://github.com/kdydesign/nuxt-moment-module",
@@ -13,13 +13,14 @@
     "dev": "nuxt test/fixture",
     "lint": "eslint lib test",
     "test": "yarn lint && jest",
-    "codecov": "./node_modules/.bin/codecov .",
     "release": "yarn test && standard-version && git push --follow-tags && npm publish"
   },
   "keywords": [
     "nuxt",
+    "nuxtjs",
     "moment",
-    "nuxtmodule"
+    "momentjs",
+    "nuxt-module"
   ],
   "contributors": [
     {
