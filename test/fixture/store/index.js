@@ -14,7 +14,7 @@ export const mutations = {
 }
 
 export const actions = {
-  add_day ({state, commit}) {
+  add_day ({ state, commit }) {
     commit('ADD_DAY2', this.$moment().day(5))
   }
 }
