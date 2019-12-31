@@ -1,6 +1,6 @@
 {
   "name": "nuxt-moment",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Easy integration between Nuxt.js and Moment.js",
   "main": "lib/module.js",
   "homepage": "https://github.com/kdydesign/nuxt-moment-module",
