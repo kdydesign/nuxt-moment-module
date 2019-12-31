@@ -5,7 +5,9 @@
 [![Codecov][codecov-src]][codecov-href]
 [![Dependencies][david-dm-src]][david-dm-href]
 [![Standard JS][standard-js-src]][standard-js-href]
-> Easy integration between nuxt.js and moment
+[![License][license-src]]
+
+> Easy integration between Nuxt.js and <a href="https://momentjs.com">Moment.js</a>
 
 ## Infos
 - [📖 **Release Notes**](./CHANGELOG.md)
@@ -81,7 +83,7 @@ export const actions = {
 
 [MIT License](./LICENSE)
 
-Copyright (c) Dev.DY(https://kdydesign.github.io/)
+Copyright (c) Dev.DY (https://kdydesign.github.io/)
 
 <!-- Badges -->
 [npm-version-src]: https://img.shields.io/npm/v/nuxt-moment?style=flat-square
@@ -96,3 +98,4 @@ Copyright (c) Dev.DY(https://kdydesign.github.io/)
 [david-dm-href]: https://david-dm.org/kdydesign/nuxt-moment-module
 [standard-js-src]: https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square
 [standard-js-href]: https://standardjs.com
+[license-src]: https://img.shields.io/npm/l/nuxt-moment?style=flat-square
