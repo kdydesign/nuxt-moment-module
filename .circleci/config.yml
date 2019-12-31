@@ -9,21 +9,30 @@ jobs:
 
       # Restore cache
       - restore_cache:
-          keys:
-            - v1-dependencies-{{ checksum "package.json" }}
+          key: yarn-cache-{{ checksum "yarn.lock" }}
 
       # Install dependencies
       - run:
           name: Install Dependencies
-          command: npm install
+          command: NODE_ENV=dev yarn
 
       # Keep cache
       - save_cache:
+          key: yarn-cache-{{ checksum "yarn.lock" }}
           paths:
-            - node_modules
-          key: v1-dependencies-{{ checksum "package.json" }}
+            - "node_modules"
+
+      # Lint
+      - run:
+          name: Lint
+          command: yarn lint
+
+      # Tests
+      - run:
+          name: Tests
+          command: yarn jest
 
       # Coverage
       - run:
           name: Coverage
-          command: npm run codecov
+          command: yarn codecov
