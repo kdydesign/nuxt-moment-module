@@ -10,7 +10,7 @@
     "email": "kdydesign@gmail.com"
   },
   "scripts": {
-    "dev": "nuxt test/fixture",
+    "dev": "nuxt test/fixture --o",
     "lint": "eslint lib test",
     "test": "yarn lint && jest",
     "release": "yarn test && standard-version && git push --follow-tags && npm publish"
