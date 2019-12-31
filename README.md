@@ -5,7 +5,7 @@
 [![Codecov][codecov-src]][codecov-href]
 [![Dependencies][david-dm-src]][david-dm-href]
 [![Standard JS][standard-js-src]][standard-js-href]
-[![License][license-src]]
+![License][license-src]
 
 > Easy integration between Nuxt.js and <a href="https://momentjs.com">Moment.js</a>
 
