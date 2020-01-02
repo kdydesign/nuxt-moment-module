@@ -83,7 +83,7 @@ export const actions = {
 
 [MIT License](./LICENSE)
 
-Copyright (c) Dev.DY (https://kdydesign.github.io/)
+Copyright (c) [Dev.DY](https://kdydesign.github.io/)
 
 <!-- Badges -->
 [npm-version-src]: https://img.shields.io/npm/v/nuxt-moment?style=flat-square
