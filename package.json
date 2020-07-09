@@ -35,8 +35,8 @@
     "lib"
   ],
   "dependencies": {
-    "consola": "^2.11.1",
-    "moment": "^2.24.0"
+    "consola": "^2.14.0",
+    "moment": "^2.27.0"
   },
   "devDependencies": {
     "@babel/core": "latest",
